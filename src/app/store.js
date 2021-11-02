@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { createStore, combineReducers } from "redux";
+import { reducer as formReducer } from "redux-form";
 
-export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+const rootReducer = combineReducers({
+  form: formReducer,
 });
+
+export const store = createStore(rootReducer);

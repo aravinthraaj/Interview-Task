@@ -72,7 +72,7 @@ To run this project, You’ll need to have
 
 - npm
   ```sh
-  Node >= 10
+  Node >= 14
   npm 6+
   ```
 

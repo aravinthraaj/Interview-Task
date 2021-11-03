@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/aravinthraaj/Interview-Task/static/css/main.31257b94.chunk.css",
-    "main.js": "/aravinthraaj/Interview-Task/static/js/main.c3819c5c.chunk.js",
-    "main.js.map": "/aravinthraaj/Interview-Task/static/js/main.c3819c5c.chunk.js.map",
-    "runtime-main.js": "/aravinthraaj/Interview-Task/static/js/runtime-main.05d9b589.js",
-    "runtime-main.js.map": "/aravinthraaj/Interview-Task/static/js/runtime-main.05d9b589.js.map",
-    "static/js/2.3c634221.chunk.js": "/aravinthraaj/Interview-Task/static/js/2.3c634221.chunk.js",
-    "static/js/2.3c634221.chunk.js.map": "/aravinthraaj/Interview-Task/static/js/2.3c634221.chunk.js.map",
-    "index.html": "/aravinthraaj/Interview-Task/index.html",
-    "static/css/main.31257b94.chunk.css.map": "/aravinthraaj/Interview-Task/static/css/main.31257b94.chunk.css.map",
-    "static/js/2.3c634221.chunk.js.LICENSE.txt": "/aravinthraaj/Interview-Task/static/js/2.3c634221.chunk.js.LICENSE.txt",
-    "static/media/dfg.07a67bae.png": "/aravinthraaj/Interview-Task/static/media/dfg.07a67bae.png",
-    "static/media/pizza.f196d9f2.png": "/aravinthraaj/Interview-Task/static/media/pizza.f196d9f2.png"
+    "main.css": "/Interview-Task/static/css/main.31257b94.chunk.css",
+    "main.js": "/Interview-Task/static/js/main.c3819c5c.chunk.js",
+    "main.js.map": "/Interview-Task/static/js/main.c3819c5c.chunk.js.map",
+    "runtime-main.js": "/Interview-Task/static/js/runtime-main.96170b63.js",
+    "runtime-main.js.map": "/Interview-Task/static/js/runtime-main.96170b63.js.map",
+    "static/js/2.3c634221.chunk.js": "/Interview-Task/static/js/2.3c634221.chunk.js",
+    "static/js/2.3c634221.chunk.js.map": "/Interview-Task/static/js/2.3c634221.chunk.js.map",
+    "index.html": "/Interview-Task/index.html",
+    "static/css/main.31257b94.chunk.css.map": "/Interview-Task/static/css/main.31257b94.chunk.css.map",
+    "static/js/2.3c634221.chunk.js.LICENSE.txt": "/Interview-Task/static/js/2.3c634221.chunk.js.LICENSE.txt",
+    "static/media/dfg.07a67bae.png": "/Interview-Task/static/media/dfg.07a67bae.png",
+    "static/media/pizza.f196d9f2.png": "/Interview-Task/static/media/pizza.f196d9f2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.05d9b589.js",
+    "static/js/runtime-main.96170b63.js",
     "static/js/2.3c634221.chunk.js",
     "static/css/main.31257b94.chunk.css",
     "static/js/main.c3819c5c.chunk.js"

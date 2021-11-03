@@ -1,0 +1,86 @@
+.inputSpan {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.label {
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  padding: 7px 8px;
+  color: var(--label-color);
+  font-size: var(--small);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 0 rgba(19, 74, 70, 0);
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  background: rgba(122, 184, 147, 0);
+
+  &:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid rgba(122, 184, 147, 0);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.popUp {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 10px 20px 15px; 
+  font-weight: 400;
+  color: var(--input-active-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: var(--input-background-color);
+  border: 0;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+
+  &::-webkit-input-placeholder {
+    text-indent: 0;
+    font-weight: 300;
+  }
+}
+
+.popUp:focus,
+.popUp:active {
+  color: var(--input-active-color);
+  text-indent: 0;
+  &::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  + .label {
+    color: var(--label-color-focus);
+    border-radius: 5px;
+    background: var(--theme-color-primary);
+    transform: translateY(-10px);
+    &:after {
+      border-top: 9px solid var(--theme-color-primary);
+    }
+  }
+}
+
+.error{
+  margin-top: 10px;
+  padding: 10px;
+  color: red;
+}
+
+.numberInput{
+  &:hover::-webkit-inner-spin-button {  
+    width: 14px;
+    height: 30px;
+  }
+}

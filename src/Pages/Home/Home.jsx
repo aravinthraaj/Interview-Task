@@ -15,7 +15,7 @@ function Home() {
           <img src={soup} alt="" />
         </div>
         <div className="container">
-          <h1>Recipe</h1>
+          <h1 className="heading">Recipe</h1>
           <Form />
         </div>
       </div>

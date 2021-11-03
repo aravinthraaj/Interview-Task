@@ -21,95 +21,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .btn-wrapper {
   width: 80%;
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%, 0%);
   margin: 0;
 }
 
-// .input-span {
-//   position: relative;
-//   display: inline-block;
-//   margin: 20px 10px;
-// }
-
-// .pop-up {
-//   display: inline-block;
-//   width: 100%;
-//   padding: 20px 10px 20px 15px; //top right bottom left
-//   // padding: 20px;
-//   font-family: "Open Sans", sans;
-//   font-weight: 400;
-//   color: var(--input-active-color);
-//   border-radius: 10px;
-//   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-//   background-color: var(--input-background-color);
-//   border: 0;
-//   outline: 0;
-//   // text-indent: 60px; // Arbitrary.
-//   transition: all 0.3s ease-in-out;
-
-//   &::-webkit-input-placeholder {
-//     text-indent: 0;
-//     font-weight: 300;
-//   }
-
-//   + .lbl {
-//     display: inline-block;
-//     position: absolute;
-//     top: -30px;
-//     left: 0;
-//     // bottom: 8px;
-//     padding: 7px 10px;
-//     color: var(--label-color);
-//     font-size: 11px;
-//     font-weight: 700;
-//     text-transform: uppercase;
-//     text-shadow: 0 1px 0 rgba(19, 74, 70, 0);
-//     transition: all 0.3s ease-in-out;
-//     border-radius: 3px;
-//     background: rgba(122, 184, 147, 0);
-
-//     &:after {
-//       position: absolute;
-//       content: "";
-//       width: 0;
-//       height: 0;
-//       top: 100%;
-//       left: 50%;
-//       margin-left: -3px;
-//       border-left: 3px solid transparent;
-//       border-right: 3px solid transparent;
-//       border-top: 3px solid rgba(122, 184, 147, 0);
-//       transition: all 0.3s ease-in-out;
-//     }
-//   }
-// }
-
-// .pop-up:focus,
-// .pop-up:active {
-//   // color: #000000;
-//   color: var(--input-active-color);
-
-//   text-indent: 0;
-//   &::-webkit-input-placeholder {
-//     color: #aaa;
-//   }
-//   + .lbl {
-//     color: var(--label-color-focus);
-//     border-radius: 5px;
-//     background: var(--theme-color-primary);
-//     transform: translateY(-10px) scale(1.1);
-//     &:after {
-//       border-top: 9px solid var(--theme-color-primary);
-//     }
-//   }
-// }
 
 input {
   margin-bottom: 10px;
@@ -123,17 +46,13 @@ input {
 
 .btn {
   background: var(--theme-color-primary);
-  // position: absolute;
   border-radius: 15px;
   padding: 20px 20px;
   color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
-  // align-items: center;
   width: 100%;
-  // margin: 20px 15px;
   border: none;
-  // bottom: 10px;
 }
 
 .btn:hover {

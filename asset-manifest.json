@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aravinthraaj/Interview-Task/static/css/main.31257b94.chunk.css",
-    "main.js": "/aravinthraaj/Interview-Task/static/js/main.6861a618.chunk.js",
-    "main.js.map": "/aravinthraaj/Interview-Task/static/js/main.6861a618.chunk.js.map",
+    "main.js": "/aravinthraaj/Interview-Task/static/js/main.c3819c5c.chunk.js",
+    "main.js.map": "/aravinthraaj/Interview-Task/static/js/main.c3819c5c.chunk.js.map",
     "runtime-main.js": "/aravinthraaj/Interview-Task/static/js/runtime-main.05d9b589.js",
     "runtime-main.js.map": "/aravinthraaj/Interview-Task/static/js/runtime-main.05d9b589.js.map",
     "static/js/2.3c634221.chunk.js": "/aravinthraaj/Interview-Task/static/js/2.3c634221.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.05d9b589.js",
     "static/js/2.3c634221.chunk.js",
     "static/css/main.31257b94.chunk.css",
-    "static/js/main.6861a618.chunk.js"
+    "static/js/main.c3819c5c.chunk.js"
   ]
 }

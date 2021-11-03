@@ -4,7 +4,6 @@ import Label from "../Label"
 import classnames from "classnames"
 import { PropTypes } from "prop-types"
 
-
 function CustomFiled(props) {
   let {
     label,
@@ -30,12 +29,16 @@ function CustomFiled(props) {
         {...input}
         {...props}
       >
-        {options &&
-          options.map((option, index) => (
-            <option value={option} key={index}>
-              {capitalizeFirstLetter(option)}
-            </option>
-          ))}
+        {options && (
+          <>
+            <option value="">Food Type</option>
+            {options.map((option, index) => (
+              <option value={option} key={index}>
+                {capitalizeFirstLetter(option)}
+              </option>
+            ))}
+          </>
+        )}
       </InputComponent>
       <Label id={id} className={style.label}>
         {label}
@@ -47,16 +50,15 @@ function CustomFiled(props) {
   )
 }
 
-
-CustomFiled.propTypes ={
-  label:PropTypes.string,
-  type:PropTypes.string,
+CustomFiled.propTypes = {
+  label: PropTypes.string,
+  type: PropTypes.string,
   meta: PropTypes.object,
-  inputClassName:PropTypes.any,
+  inputClassName: PropTypes.any,
   inputcomponent: PropTypes.any,
-  id:PropTypes.string,
-  options:PropTypes.array,
-  input:PropTypes.any
+  id: PropTypes.string,
+  options: PropTypes.array,
+  input: PropTypes.any,
 }
 
 export default CustomFiled

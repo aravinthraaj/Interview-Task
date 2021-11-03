@@ -1,7 +1,11 @@
-import { reset, SubmissionError } from "redux-form"
 
-async function postData(url = "", data = {}) {
-  const response = await fetch(url, {
+
+import { reset } from "redux-form"
+import { SubmissionError } from 'redux-form'
+
+
+async function postData(url = "", data = {}, dispatch) {
+  const resp = await fetch(url, {
     method: "POST",
     mode: "cors",
     cache: "no-cache",
@@ -13,32 +17,20 @@ async function postData(url = "", data = {}) {
     referrerPolicy: "no-referrer",
     body: JSON.stringify(data),
   })
-  return response
+
+  if (resp.status === 200 || resp.status === 201) {
+    alert("Your data has been submitted")
+    return reset('recipe')
+  }
+  else {
+    const error = await resp.json()
+    throw new SubmissionError(error)
+  }
 }
 
 export default function submit(values, dispatch) {
-  console.log(values.name)
-  if(values.name==="aaa"){
-    throw new SubmissionError({
-      name: 'User does not exist',
-      _error: 'Login failed!'
-    })
-  }
-  else{
-    dispatch(reset("recipe"))
-
-  }
-
-  postData("https://frosty-wood-6558.getsandbox.com:443/dishes", values)
-    .then((response) => {
-      console.log(response)
-      if (response.status === 200) {
-        dispatch(reset("recipe"))
-      }
-      return response.json()
-    })
-    .then((data) => {
-      console.log(data)
-    })
-    .catch((e) => console.error(e))
+  return postData(
+    "https://frosty-wood-6558.getsandbox.com:443/dishes",
+    values
+  ).then(callback => dispatch(callback))
 }

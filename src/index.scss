@@ -1,11 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-
-*{
+* {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
+
+:root {
+  --small: 12px;
+  --normal: 16px;
+  --medium: 18px;
+  --large: 24px;
+  --label-color: #{rgb(0, 0, 0)};
+  --label-color-focus: #{white};
+  --input-active-color: #{rgb(207, 3, 3)};
+  --input-background-color: #{rgb(241, 241, 241)};
+  --theme-color-primary: #{#ff3300};
+  --main-background: #{rgb(37, 37, 37)};
+  --form-background: #{white};
+  --input-padding:16px 10px 16px 15px;
+}
+
 

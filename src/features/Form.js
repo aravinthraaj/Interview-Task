@@ -7,6 +7,7 @@ import SliderField from "../components/SliderField"
 import CustomFiled from "../components/CustomFiled/CustomFiled"
 import { PropTypes } from "prop-types"
 import DurationField from "../components/DurationField"
+import styles from "./style.module.scss"
 
 let Form = (props) => {
   const { foodType, handleSubmit } = props
@@ -86,12 +87,12 @@ let Form = (props) => {
         id="type"
         component={CustomFiled}
         inputcomponent="select"
-        options={["", "pizza", "soup", "sandwich"]}
+        options={["pizza", "soup", "sandwich"]}
         label="type"
       />
       {foodType && dynamicFieldcustom(foodType)}
-      <div className="btn-wrapper">
-        <button className="btn" type="submit">
+      <div className={styles.btnWrapper}>
+        <button className={styles.btn} type="submit">
           Send
         </button>
       </div>

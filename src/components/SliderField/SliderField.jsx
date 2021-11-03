@@ -15,6 +15,7 @@ function SliderField(props) {
         {...input}
         className={styles.sliderInput}
         type="range"
+        value={value || 1}
         onChange={(e) => {
           onChange(e.target.value)
         }}
@@ -23,7 +24,7 @@ function SliderField(props) {
       <label htmlFor="" className={styles.label}>
         {label}
       </label>
-      
+
       {touched &&
         ((error && <span className={styles.error}>{error}</span>) ||
           (warning && <span>{warning}</span>))}

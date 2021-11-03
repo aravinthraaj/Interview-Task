@@ -23,7 +23,7 @@ function DurationField(props) {
         id={id}
         type={type}
         {...props}
-        mask={[/[0-9]/, /[0-9]/, ":", /[0-5]/, /[0-9]/, ":", /[0-5]/, /[1-9]/]}
+        mask={[/[0-9]/, /[0-9]/, ":", /[0-5]/, /[0-9]/, ":", /[0-5]/, /[0-9]/]}
       />
       <label htmlFor={id} className={styles.label}>
         {label}

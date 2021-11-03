@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Interview-Task/static/css/main.d96d5a6b.chunk.css",
-    "main.js": "/Interview-Task/static/js/main.4d379eef.chunk.js",
-    "main.js.map": "/Interview-Task/static/js/main.4d379eef.chunk.js.map",
+    "main.css": "/Interview-Task/static/css/main.c1388cb9.chunk.css",
+    "main.js": "/Interview-Task/static/js/main.9dbae86e.chunk.js",
+    "main.js.map": "/Interview-Task/static/js/main.9dbae86e.chunk.js.map",
     "runtime-main.js": "/Interview-Task/static/js/runtime-main.595398fb.js",
     "runtime-main.js.map": "/Interview-Task/static/js/runtime-main.595398fb.js.map",
-    "static/js/2.79d39aaf.chunk.js": "/Interview-Task/static/js/2.79d39aaf.chunk.js",
-    "static/js/2.79d39aaf.chunk.js.map": "/Interview-Task/static/js/2.79d39aaf.chunk.js.map",
+    "static/js/2.1d40d8eb.chunk.js": "/Interview-Task/static/js/2.1d40d8eb.chunk.js",
+    "static/js/2.1d40d8eb.chunk.js.map": "/Interview-Task/static/js/2.1d40d8eb.chunk.js.map",
     "index.html": "/Interview-Task/index.html",
-    "static/css/main.d96d5a6b.chunk.css.map": "/Interview-Task/static/css/main.d96d5a6b.chunk.css.map",
-    "static/js/2.79d39aaf.chunk.js.LICENSE.txt": "/Interview-Task/static/js/2.79d39aaf.chunk.js.LICENSE.txt",
+    "static/css/main.c1388cb9.chunk.css.map": "/Interview-Task/static/css/main.c1388cb9.chunk.css.map",
+    "static/js/2.1d40d8eb.chunk.js.LICENSE.txt": "/Interview-Task/static/js/2.1d40d8eb.chunk.js.LICENSE.txt",
     "static/media/dfg.07a67bae.png": "/Interview-Task/static/media/dfg.07a67bae.png",
     "static/media/pizza.f196d9f2.png": "/Interview-Task/static/media/pizza.f196d9f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.595398fb.js",
-    "static/js/2.79d39aaf.chunk.js",
-    "static/css/main.d96d5a6b.chunk.css",
-    "static/js/main.4d379eef.chunk.js"
+    "static/js/2.1d40d8eb.chunk.js",
+    "static/css/main.c1388cb9.chunk.css",
+    "static/js/main.9dbae86e.chunk.js"
   ]
 }

@@ -10,7 +10,7 @@ function Home() {
     <div className={styles.homepage}>
       <div className={styles.wrapper}>
         <div className={classnames(styles.floating, styles.floatingOne)}>
-          <img src={pizza} alt="" className={styles.imagePizza}/>
+          <img src={pizza} alt="" className={styles.image}/>
         </div>
         <div className={classnames(styles.floating, styles.floatingTwo)}>
           <img src={soup} alt=""  className={styles.image}/>

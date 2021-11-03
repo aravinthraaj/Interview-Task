@@ -14,7 +14,6 @@ function SliderField(props) {
       <input
         {...input}
         className={styles.sliderInput}
-        value="1"
         type="range"
         onChange={(e) => {
           onChange(e.target.value)

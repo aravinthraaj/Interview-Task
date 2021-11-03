@@ -72,8 +72,8 @@ To run this project, You’ll need to have
 
 - npm
   ```sh
-  Node >= 14
-  npm 6+
+  Node v14.17.6 or greater
+  npm 6.14.15 or greater
   ```
 
 ### Installation and Setup
@@ -82,18 +82,24 @@ To run this project, You’ll need to have
    ```sh
    git clone https://github.com/aravinthraaj/Interview-Task
    ```
-2. Install NPM packages
+2. Install packages
    ```sh
-   yarn install or npm install
+   npm install or yarn install
    ```
 3. To start server
    ```sh
-   yarn start or npm start
+    npm start or yarn start
    ```
 4. To visit App
    ```sh
    localhost:3000
    ```
+
+### Time for the task
+
+```sh
+Approximately 8 hours
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

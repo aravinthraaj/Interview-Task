@@ -1,45 +1,102 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<div id="top"></div>
 
-## Available Scripts
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-### `yarn start`
+<h3 align="center">Recipe Frontend</h3>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    A Task for an Interview which to create a "Form" to submit a Recipe.
+    <br />
+    <br />
+    <a href="https://aravinthraaj.github.io/Interview-Task/">View Demo</a>
+    ·
+    <a href="https://github.com/aravinthraaj/Interview-Task/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/aravinthraaj/Interview-Task/issues">Request Feature</a>
+  </p>
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
 
-### `yarn test`
+  </ol>
+</details>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
 
-### `yarn build`
+## About The Project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+A Task for an Interview which to create a "Form" to submit a Recipe.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `yarn eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React.js](https://reactjs.org)
+- [ESLint](https://eslint.org)
+- [Redux](https://redux.js.org)
+- [Redux Form](https://redux-form.com)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- GETTING STARTED -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To get a local copy up and running follow these simple example steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Interview-Task
+To run this project, You’ll need to have
+
+- npm
+  ```sh
+  Node >= 10
+  npm 6+
+  ```
+
+### Installation and Setup
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/aravinthraaj/Interview-Task
+   ```
+2. Install NPM packages
+   ```sh
+   yarn install or npm install
+   ```
+3. To start server
+   ```sh
+   yarn start or npm start
+   ```
+4. To visit App
+   ```sh
+   localhost:3000
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/aravinthraaj
+[product-screenshot]: Task.png

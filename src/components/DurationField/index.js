@@ -1,1 +1,1 @@
-export { default } from "./DurationField";
+export { default } from "./DurationField"

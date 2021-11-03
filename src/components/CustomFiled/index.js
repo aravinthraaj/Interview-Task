@@ -1,1 +1,1 @@
-export { default } from "./CustomFiled";
+export { default } from "./CustomFiled"

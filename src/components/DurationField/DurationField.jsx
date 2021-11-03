@@ -1,8 +1,8 @@
-import React from "react";
-import MaskedInput from "react-text-mask";
-import styles from "./style.module.scss";
-import classnames from "classnames";
-import { PropTypes } from "prop-types";
+import React from "react"
+import MaskedInput from "react-text-mask"
+import styles from "./style.module.scss"
+import classnames from "classnames"
+import { PropTypes } from "prop-types"
 
 function DurationField(props) {
   let {
@@ -12,7 +12,7 @@ function DurationField(props) {
     inputClassName,
     input,
     meta: { touched, error, warning },
-  } = props;
+  } = props
 
   return (
     <div className={styles.inputSpan}>
@@ -32,7 +32,7 @@ function DurationField(props) {
         ((error && <span className={styles.error}>{error}</span>) ||
           (warning && <span>{warning}</span>))}
     </div>
-  );
+  )
 }
 
 DurationField.propTypes = {
@@ -42,6 +42,6 @@ DurationField.propTypes = {
   inputClassName: PropTypes.any,
   id: PropTypes.string,
   input: PropTypes.any,
-};
+}
 
-export default DurationField;
+export default DurationField

@@ -1,22 +1,23 @@
-import React from "react";
-import styles from "./style.module.scss";
-import { PropTypes } from "prop-types";
+import React from "react"
+import styles from "./style.module.scss"
+import { PropTypes } from "prop-types"
 
 function SliderField(props) {
   let {
     label,
     input,
     meta: { touched, error, warning },
-  } = props;
-  const { value, onChange } = input;
+  } = props
+  const { value, onChange } = input
   return (
     <div className={styles.inputSpan}>
       <input
         {...input}
         className={styles.sliderInput}
+        value="1"
         type="range"
         onChange={(e) => {
-          onChange(e.target.value);
+          onChange(e.target.value)
         }}
         {...props}
       />
@@ -29,13 +30,13 @@ function SliderField(props) {
           (warning && <span>{warning}</span>))}
       <p className={styles.value}>{value}</p>
     </div>
-  );
+  )
 }
 
 SliderField.propTypes = {
   label: PropTypes.string,
   meta: PropTypes.object,
   input: PropTypes.any,
-};
+}
 
-export default SliderField;
+export default SliderField

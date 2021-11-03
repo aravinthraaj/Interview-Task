@@ -1,16 +1,16 @@
-import React from "react";
-import { connect, useDispatch } from "react-redux";
-import { Field, reduxForm, formValueSelector } from "redux-form";
-import { validate } from "../features/validate";
-import submit from "../features/submit";
-import SliderField from "../components/SliderField";
-import CustomFiled from "../components/CustomFiled/CustomFiled";
-import { PropTypes } from "prop-types";
-import DurationField from "../components/DurationField";
+import React from "react"
+import { connect, useDispatch } from "react-redux"
+import { Field, reduxForm, formValueSelector } from "redux-form"
+import { validate } from "../features/validate"
+import submit from "../features/submit"
+import SliderField from "../components/SliderField"
+import CustomFiled from "../components/CustomFiled/CustomFiled"
+import { PropTypes } from "prop-types"
+import DurationField from "../components/DurationField"
 
 let Form = (props) => {
-  const { foodType, handleSubmit } = props;
-  const dispatch = useDispatch();
+  const { foodType, handleSubmit } = props
+  const dispatch = useDispatch()
   const dynamicFieldcustom = (foodType) => {
     switch (foodType) {
       case "pizza":
@@ -39,21 +39,20 @@ let Form = (props) => {
               parse={(val) => parseFloat(val, 10.0)}
             />
           </>
-        );
+        )
       case "soup":
         return (
           <Field
             name="spiciness_scale"
             component={SliderField}
             type="range"
-            defaultValue={2}
             label="Spicy Level"
             min="1"
             max="10"
             step="1"
             parse={(val) => parseFloat(val, 10)}
           />
-        );
+        )
       case "sandwich":
         return (
           <Field
@@ -67,10 +66,10 @@ let Form = (props) => {
             step={1}
             parse={(val) => parseFloat(val, 10)}
           />
-        );
+        )
       default:
     }
-  };
+  }
 
   return (
     <form onSubmit={handleSubmit((values) => submit(values, dispatch))}>
@@ -87,7 +86,7 @@ let Form = (props) => {
         id="type"
         component={CustomFiled}
         inputcomponent="select"
-        options={["","pizza", "soup", "sandwich"]}
+        options={["", "pizza", "soup", "sandwich"]}
         label="type"
       />
       {foodType && dynamicFieldcustom(foodType)}
@@ -97,27 +96,27 @@ let Form = (props) => {
         </button>
       </div>
     </form>
-  );
-};
+  )
+}
 
-const selector = formValueSelector("recipe");
+const selector = formValueSelector("recipe")
 Form = connect((state) => {
-  const foodType = selector(state, "type");
+  const foodType = selector(state, "type")
 
   return {
     foodType,
-  };
-})(Form);
+  }
+})(Form)
 
 Form = reduxForm({
   // a unique name for the form
   form: "recipe",
   validate,
-})(Form);
+})(Form)
 
 Form.propTypes = {
   foodType: PropTypes.string,
   handleSubmit: PropTypes.func,
-};
+}
 
-export default Form;
+export default Form

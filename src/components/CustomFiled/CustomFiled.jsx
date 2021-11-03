@@ -1,8 +1,8 @@
-import React from "react";
-import style from "./style.module.scss";
-import Label from "../Label";
-import classnames from "classnames";
-import { PropTypes } from "prop-types";
+import React from "react"
+import style from "./style.module.scss"
+import Label from "../Label"
+import classnames from "classnames"
+import { PropTypes } from "prop-types"
 
 
 function CustomFiled(props) {
@@ -15,10 +15,10 @@ function CustomFiled(props) {
     id,
     options,
     input,
-  } = props;
+  } = props
 
   function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    return string.charAt(0).toUpperCase() + string.slice(1)
   }
   return (
     <div className={style.inputSpan}>
@@ -44,7 +44,7 @@ function CustomFiled(props) {
         ((error && <span className={style.error}>{error}</span>) ||
           (warning && <span>{warning}</span>))}
     </div>
-  );
+  )
 }
 
 
@@ -59,4 +59,4 @@ CustomFiled.propTypes ={
   input:PropTypes.any
 }
 
-export default CustomFiled;
+export default CustomFiled

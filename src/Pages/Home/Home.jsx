@@ -1,8 +1,8 @@
-import React from "react";
-import Form from "../../features/Form";
-import "./Home.scss";
-import pizza from "../../images/pizza.png";
-import soup from "../../images/dfg.png";
+import React from "react"
+import Form from "../../features/Form"
+import "./Home.scss"
+import pizza from "../../images/pizza.png"
+import soup from "../../images/dfg.png"
 
 function Home() {
   return (
@@ -20,7 +20,7 @@ function Home() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

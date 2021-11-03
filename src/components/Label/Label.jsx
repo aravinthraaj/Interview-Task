@@ -1,14 +1,14 @@
-import React from "react";
-import { PropTypes } from "prop-types";
+import React from "react"
+import { PropTypes } from "prop-types"
 
 
 function Label(props) {
-  const { children, className, id } = props;
+  const { children, className, id } = props
   return (
     <label className={className} htmlFor={id}>
       {children}
     </label>
-  );
+  )
 }
 
 
@@ -18,4 +18,4 @@ Label.propTypes = {
   id:PropTypes.string
 }
 
-export default Label;
+export default Label
